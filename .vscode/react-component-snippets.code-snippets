@@ -1,0 +1,69 @@
+{
+  "React class component": {
+    "scope": "javascript,javascriptreact",
+    "prefix": "rcc",
+    "body": [
+      "import React, { Component } from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "// Styles",
+      "import './$1.scss'",
+      "",
+      "class $1 extends Component {",
+      "\tstatic propTypes = {}",
+      "",
+      "\tstate = {}",
+      "",
+      "\t// = Handlers =======================================",
+      "",
+      "\t// = Getters ========================================",
+      "",
+      "\t// = Lifecycle ======================================",
+      "",
+      "\trender() {",
+      "\t\treturn ( $2 )",
+      "\t}",
+      "}",
+      "",
+      "export default $1"
+    ],
+    "description": "React class component"
+  },
+  "React functional component": {
+    "scope": "javascript,typescript",
+    "prefix": "rfcc",
+    "body": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "// Styles",
+      "import './$1.scss'",
+      "",
+      "function $1(props) {",
+      "\treturn ( $2 )",
+      "}",
+      "$1.propTypes = {}",
+      "",
+      "export default $1"
+    ],
+    "description": "React functional component"
+  },
+  "Class component handler": {
+    "scope": "javascript,typescript",
+    "prefix": "rcchan",
+    "body": [
+      "handle$1 = () => { }"
+    ],
+    "description": "React class component handler"
+  },
+  "Class component prop getter": {
+    "scope": "javascript,typescript",
+    "prefix": "rccget",
+    "body": [
+      "get $1() {",
+      "\treturn this.props.$1",
+      "}"
+    ],
+    "description": "React class component getter"
+  }
+}

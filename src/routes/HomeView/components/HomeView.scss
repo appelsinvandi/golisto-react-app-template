@@ -1,0 +1,32 @@
+@import '../../../styles/variables/colors';
+
+#HomeView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 24px;
+
+  .golisto-logo {
+    width: 100%;
+    height: 100%;
+    max-width: 256px;
+    max-height: 256px;
+
+    fill: $colorPrimary;
+
+    animation: rock 2s ease-in-out infinite;
+  }
+}
+
+@keyframes rock {
+  0% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}

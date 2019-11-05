@@ -1,0 +1,86 @@
+@import './styles/mixins/typography.scss';
+@import './styles/variables/colors.scss';
+
+html,
+body {
+  min-width: 100%;
+  min-height: 100%;
+
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+  white-space: pre-wrap;
+}
+
+h1 {
+  @include typo-h1;
+
+  color: $colorBlack;
+}
+
+h2 {
+  @include typo-h2;
+
+  color: $colorBlack;
+}
+
+h3 {
+  @include typo-h3;
+
+  color: $colorBlack;
+}
+
+h4 {
+  @include typo-h4;
+
+  color: $colorBlack;
+}
+
+h5 {
+  @include typo-h5;
+
+  color: $colorBlack;
+}
+
+p {
+  @include typo-p;
+
+  color: $colorBlack;
+
+  &.label {
+    @include typo-label;
+
+    color: $colorBlack;
+  }
+
+  &.caption1 {
+    @include typo-caption1;
+
+    color: $colorBlack;
+  }
+
+  &.caption2 {
+    @include typo-caption2;
+
+    color: $colorBlack;
+  }
+
+  &.caption3 {
+    @include typo-caption3;
+
+    color: $colorBlack;
+  }
+}
+
+small {
+  @include typo-small;
+
+  color: $colorBlack;
+}
