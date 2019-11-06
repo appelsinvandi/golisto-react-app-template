@@ -21,7 +21,7 @@ yarn start
 
 ## Project structure
 
-The structure borrows heavily from the final structure of the now deprecated (react-redux-starter-kit)[https://github.com/davezuko/react-redux-starter-kit].
+The structure borrows heavily from the final structure of the now deprecated [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit).
 
 ### Legacy
 
