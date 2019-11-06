@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 
+// Components
+import { Route } from 'react-router-dom'
+
+// Layouts
+import { CoreLayout } from '_/layouts/CoreLayout'
+
 // Views
 import { HomeView } from './HomeView'
 
