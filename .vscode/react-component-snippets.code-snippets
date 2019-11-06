@@ -30,7 +30,7 @@
     "description": "React class component"
   },
   "React functional component": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,javascriptreact",
     "prefix": "rfcc",
     "body": [
       "import React from 'react'",
@@ -49,7 +49,7 @@
     "description": "React functional component"
   },
   "Class component handler": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,javascriptreact",
     "prefix": "rcchan",
     "body": [
       "handle$1 = () => { }"
@@ -57,7 +57,7 @@
     "description": "React class component handler"
   },
   "Class component prop getter": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,javascriptreact",
     "prefix": "rccget",
     "body": [
       "get $1() {",
