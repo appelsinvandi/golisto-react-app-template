@@ -73,6 +73,88 @@ The structure borrows heavily from the final structure of the now deprecated [re
 † optional
 ```
 
+## Naming
+
+### Files
+
+Generally all files and folders are named using:
+
+```
+camelCase
+```
+
+However, folders containing React components, React component `.jsx` files, and their companion `.scss` files are named using:
+
+```
+PascalCase
+```
+
+### JavaScript
+
+#### Variables
+
+```javascript
+let camelCase = 0
+```
+
+#### Constants
+
+```javascript
+const SCREAMING_SNAKE_CASE = 0
+```
+
+One may wish to make something akin to an enum, in such case it would be named as such:
+
+```javascript
+const camelCase = {
+  SCREAMING_SNAKE_CASE: 0,
+}
+```
+
+#### Functions
+
+Casing for functions are the same as for variables, but we believe that modern IDEs quickly eases any confusion.
+
+```javascript
+function camelCase() {}
+```
+
+```javascript
+const camelCase = () => {}
+```
+
+#### Classes & Functional components
+
+```javascript
+class PascalCase {}
+```
+
+```javascript
+function PascalCase() {}
+```
+
+### Sass
+
+#### Ids
+
+```scss
+#PascalCase {
+}
+```
+
+#### Classes
+
+```scss
+.kebab-case {
+}
+```
+
+#### Variables
+
+```scss
+$camelCase: 0;
+```
+
 ## Editor
 
 I strongly suggest using VS Code or a compatible editor, so you can make use of the snippets and suggested extensions.
