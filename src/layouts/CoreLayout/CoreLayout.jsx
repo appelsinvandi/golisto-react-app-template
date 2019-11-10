@@ -17,10 +17,10 @@ class CoreLayout extends Component {
   render() {
     return (
       <div id="CoreLayout">
-        <div id="CoreLayout__Header">
+        <div id="CoreLayoutHeader">
           <nav id="NavBar"></nav>
         </div>
-        <div id="CoreLayout__Content">{this.children}</div>
+        <div id="CoreLayoutContent">{this.children}</div>
       </div>
     )
   }
