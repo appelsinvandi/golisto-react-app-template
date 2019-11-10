@@ -23,7 +23,7 @@ yarn start
 
 The structure borrows heavily from the final structure of the now deprecated [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit).
 
-### Legacy
+### Legend
 
 - Any `index.jsx` file without a description will have only one job: "Export all the components from the folder, that the rest of the app needs to know about"
 - Any `<Name>.scss` file without a description, will contain all the styles of the `.jsx` file with the same name, and is imported by that same `.jsx` file. This is also always optional.
