@@ -89,6 +89,12 @@ However, folders containing React components, React component `.jsx` files, and 
 PascalCase
 ```
 
+Another special case are Sass part files that should not be used directly, but only ever imported. In accordance to the Scss spec, these files should be prefixed with an `_`, and named using:
+
+```
+_camelCase
+```
+
 ### JavaScript
 
 #### Variables
