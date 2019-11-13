@@ -112,7 +112,7 @@ const SCREAMING_SNAKE_CASE = 0
 One may wish to make something akin to an enum, in such case it would be named as such:
 
 ```javascript
-const camelCase = {
+const PascalCase = {
   SCREAMING_SNAKE_CASE: 0,
 }
 ```
